@@ -20,8 +20,6 @@ The project has been built using **HTML**,**CSS**, **Bootstrap** technologies.
 2. Run **index.html** file.
 
 ## Or you can visualise it by clicking on the link [here](https://ionpara.github.io/finalCapstone/)
-![screenshot of the page](Images/screenshot.png )
-
 
 ## ✉️ <a id="contact">Contact</a>:
 
