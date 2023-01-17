@@ -11,7 +11,7 @@ The project contains a website built to showcase a hobby and has a goal to provi
 
 ### 🔣 <a id="languages">Languages used </a>:
 
-The project has been built using **HTML**,**CSS**, **Bootstrap** technologies.
+The project has been built using **HTML**,**CSS**, **Bootstrap** **JavaScript** technologies.
 
 ## 📘 <a id="setup">Setup</a>:
 
