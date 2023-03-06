@@ -21,9 +21,9 @@ The project has been built using **HTML**,**CSS**, **Bootstrap** **JavaScript** 
 
 ## Or you can visualise it by clicking on the link [here](https://ionpara.github.io/Just-Fight/)
 
-## ✉️ <a id="contact">Contact</a>:
-
 ![screenshot](https://user-images.githubusercontent.com/84988051/223179788-c8f32b26-dd06-4dd4-a3d3-ec2aab5cabea.png)
+
+## ✉️ <a id="contact">Contact</a>:
 
 Created by [IonPara](https://github.com/IonPara).
 
