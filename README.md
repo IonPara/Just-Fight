@@ -1,4 +1,4 @@
-# Just-Fight-Company-Page
+# Just-Fight
 
 📃 **Content:**
 - [General Information ](#General-Information)
