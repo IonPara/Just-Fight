@@ -19,7 +19,7 @@ The project has been built using **HTML**,**CSS**, **Bootstrap** **JavaScript** 
 
 2. Run **index.html** file.
 
-## Or you can visualise it by clicking on the link [here](https://ionpara.github.io/Just-Fight-Company-Page/)
+## Or you can visualise it by clicking on the link [here](https://ionpara.github.io/Just-Fight/)
 
 ## ✉️ <a id="contact">Contact</a>:
 
