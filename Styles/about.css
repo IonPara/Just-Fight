@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #brand {
     font-size: 1.5rem;
     font-weight: bolder;
@@ -56,4 +57,64 @@ footer p{
     }
   }
 
+=======
+#brand {
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+
+  /* Sign Up for Newsletters section */
+.sign-up {
+    padding:30px;
+    margin-top: 80px;
+}
+
+/* Martial arts boxes */
+.martial-arts {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+ .item {
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 10px 25px 0 rgb(0 0 0 / 15%), 0 3px 7px 0 rgb(0 0 0 / 15%);
+}
+
+.martial-arts .item:hover, .description:hover {
+    -webkit-transform: scale(0.5);
+        transform: scale(1.05); 
+}
+
+
+/* Just Fight Description */
+.description {
+    padding: 20px;
+    box-shadow: 0 10px 25px 0 rgb(0 0 0 / 15%), 0 3px 7px 0 rgb(0 0 0 / 15%);
+}
+
+
+
+/* Footer Section */
+footer p{
+    padding: 4vh 0;
+    margin-bottom: 0;
+    font-size: larger;
+    height: 100px;
+}
+/* ---------Media Screen */
+
+@media screen and (max-width:1000px) {
+    .martial-arts {
+        display: block;
+    }
+
+    .martial-arts .item {
+        width: 100%;
+    }
+  }
+
+>>>>>>> 0fd44c21b66e83d8edb296cb9a57458fc2abac79
   
