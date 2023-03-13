@@ -1,0 +1,163 @@
+
+
+/*---------------- Top section------------- */
+.top-section {
+    background-color: black;
+    
+}
+
+
+#brand {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+
+#join a:hover, a:visited, a:link {
+    text-decoration: wavy;
+}
+
+#join:hover {
+    background-color: rgb(8, 157, 135);
+}
+
+/* Radio button */
+.radio-btn {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+/* ---------------------------Coach------------ */
+.container figcaption {
+    font-weight: 600;
+}
+
+/*------------ Contact Info -----------*/
+.location h2 {
+    margin-top: 2%;
+}
+
+.location .container {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
+    margin-top: 3%;
+}
+
+.list {
+    list-style: none;
+    font-size: larger;
+    font-weight: 400;
+    line-height: 2em;
+}
+
+.list li {
+    border-bottom:1px solid grey;
+}
+
+ul a:hover, a:visited, a:link{
+    color:black;
+    text-decoration: wavy;
+}
+
+ul a:hover {
+    color:blueviolet;
+}
+
+/*  The Map */
+.map {
+    border-radius: 25%;
+}
+
+/* -----------------Cards--------------- */
+.card:hover {
+    -webkit-transform: scale(0.5);
+     transform: scale(1.05); 
+}
+
+.card {
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.15), 0 3px 7px 0 rgb(0 0 0 / 15%);
+}
+
+.table-container, .classes-container, section {
+    overflow-x: hidden;
+    min-width: 100%;
+}
+
+/* -----------------Footer--------------- */
+footer p{
+    padding: 5vh 0;
+    margin-bottom: 0;
+    font-size: larger;
+    height: 100px;
+}
+
+
+/* ---------------Media screen----------------- */
+@media screen and (max-width:1200px) {
+    .boxes h3 {
+        font-size: 1.2em;
+        white-space:pre-wrap;
+    }
+
+}
+
+@media screen and (max-width:1000px) {
+    .top-section {
+        margin-top: 8%;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    .newsletter-input {
+        width: 50%;
+    }
+
+    #table {
+        font-size: 0.9rem;
+    }
+
+    .map {
+        width: 400px; 
+    }
+
+    .location .container {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .top-section {
+        margin-top: 10%;
+        min-width: 100%;
+    }
+
+    .fight-club {
+        min-width: 100% !important;
+        margin-top: 5%;
+        margin-left: auto;
+    }
+
+    .heading-container {
+        min-width: 100% !important;
+    }
+
+    #join {
+        margin-bottom: 5px;
+    }
+    .table-container {
+        min-width: 100dvw;
+        border: solid red !important;
+    }
+
+    .table-container {
+        margin-right: 100px !important;
+        margin-left: none;
+    }
+
+}

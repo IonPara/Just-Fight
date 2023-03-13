@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Just Fight</title>
+  <link href="./Styles/styles.css" rel="stylesheet" type="text/css">
+
+  <!-- Bootstrap Link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+
+    <!-- ------------Nav bar ------------------------>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container pb-4 mr-5">
+        <a class="navbar-brand mt-3" id="brand" href="#"><span class="text-primary">Just </span> Fight</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav justify-content-end">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ourClasses">Classes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#openingHours">Opening</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#coaches">Coaches</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./plans.html">Join</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./review.html">Review</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ------------------------Join Club Top section  --------------- -->
+  <section class="text-light pt-5 text-center text-sm-start top-section transition-fade" id="swup">
+    <div class="container">
+      <div class="d-sm-flex justify-content-between align-items-center">
+        <div class="heading-container w-50">
+          <h1 class="fight-club text-center font-weight-bold"><span class="text-primary">Just </span>Fight</h1>
+          <p class=" md-lead text-left font-italic pt-3">
+            All martial arts are really just different paths to the same place, which is total human development.
+            <br>
+          <p class="text-right">BETH AUSTIN</p>
+          <a class="text-white" href="./plans.html" target="_blank" rel="noopener noreferrer">
+            <button class="btn btn-lg btn-primary mt-3" id="join">
+              Join Our Team
+            </button>
+          </a>
+        </div>
+        <img class="img-fluid  w-25 d-none d-sm-block" src="./Images/timothy-eberly-C7ax3RF9FFo-unsplash.jpg"
+          alt="Muay Thai">
+      </div>
+    </div>
+  </section>
+
+  <!-- Sign Up section -->
+  <div class="bg-primary text-light p-5">
+    <div class="container">
+      <div class="d-md-flex justify-content-between align-items-center">
+        <h3 class="mb3-mb-md-0">
+          Sing Up For Our Newsletters
+        </h3>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control newsletter-input" placeholder="Enter Email:"
+            aria-label="Recipient's username" aria-describedby="button-addon2">
+          <button class="btn  btn-outline-secondary bg-dark text-white" type="button" id="button-addon2">
+            Sign Up
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-------------------------------Our Classes Boxes------------ -->
+  <section class="p-5 mb-5" id="ourClasses">
+    <div class="container classes-container text-center text-light boxes">
+      <div class="row">
+        <div class="col text-dark font-weight-bolder">
+          <div class=" h2 pb-4">Join Our Classes</div>
+        </div>
+      </div>
+
+      <!-- Here we create a row with 3 boxes -->
+      <div class="row">
+
+        <div class="col-md ">
+          <div class="card bg-primary ">
+            <div class="card-body">
+              <h3 class="card-title">Brazilian Jiu Jitsu</h3>
+              <a href="./about.html">
+                <img class=" card-image w-100 d-md-block" src="./Images/bjj.png" alt="Brazilian Jiu Jitsu">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md ">
+          <div class="card bg-dark mt-4 m-md-0">
+            <div class="card-body">
+              <h3 class="card-title">No-Gi</h3>
+              <a href="./about.html">
+                <img class="card-image w-100 d-md-block" src="./Images/no-gi.png" alt="No-Gi">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md ">
+          <div class="card bg-primary mt-4 m-md-0">
+            <div class="card-body">
+              <h3 class="card-title">Kick Boxing</h3>
+              <a href="./about.html">
+                <img class=" card-image w-100 d-md-block" src="./Images/kb.png" alt="Kick-boxing">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Here we create second row with 3 boxes -->
+      <div class="row pt-4">
+        <div class="col-md">
+          <div class="card bg-dark mb-4 m-md-0">
+            <div class="card-body">
+              <h3 class="card-title">Boxing</h3>
+              <a href="./about.html">
+                <img class="card-image w-100  d-md-block" src="./Images/boxing.png" alt="Brazilian Jiu Jitsu">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md">
+          <div class="card bg-primary">
+            <div class="card-body">
+              <h3 class="card-title">MMA</h3>
+              <a href="./about.html">
+                <img class="card-image w-100  d-md-block" src="./Images/mma.png" alt="No-Gi">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md">
+          <div class="card bg-dark mt-4 m-md-0">
+            <div class="card-body">
+              <h3 class="card-title">Gym</h3>
+              <a href="./about.html">
+                <img class="card-image w-100  d-md-block" src="./Images/gym.png" alt="Kick-boxing">
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!----------------------------Table--------------------------------  -->
+  <section class="bg-dark  p-5" id="openingHours">
+    <h2 class="text-light text-center">Opening Hours</h2>
+
+    <div class="bg-dark py-5">
+      <div class=" text-dark d-flex justify-content-center table-container">
+        <table class=" table bg-light  table-hover w-75 ">
+          <thead class="bg-dark text-light">
+            <!-- Here is the top row -->
+            <tr class="row-head ">
+              <!-- Here on the small screen the day of the week wil be just a letter -->
+              <th class="col1 d-none d-md-table-cell" scope="col">Class</th>
+              <th class="col2 d-md-none" scope="col">C</th>
+              <th class="col2 d-none d-md-table-cell" scope="col">Monday</th>
+              <th class="col2 d-md-none" scope="col">M</th>
+              <th class="col3 d-none d-md-table-cell" scope="col">Tuesday</th>
+              <th class="col3 d-md-none" scope="col">T</th>
+              <th class="col3 d-none d-md-table-cell" scope="col">Wednesday</th>
+              <th class="col3 d-md-none" scope="col">W</th>
+              <th class="col4 d-none d-md-table-cell" scope="col">Thursday</th>
+              <th class="col4 d-md-none" scope="col">T</th>
+              <th class="col5 d-none d-md-table-cell" scope="col">Friday</th>
+              <th class="col5 d-md-none" scope="col">F</th>
+              <th class="col6 d-none d-md-table-cell" scope="col">Saturday</th>
+              <th class="col6 d-md-none" scope="col">S</th>
+            </tr>
+          </thead>
+
+          <tbody class="" id="table">
+            <!-- Here is the second row -->
+            <!-- The first column will change depending on the screen size -->
+            <tr class="table-active">
+              <th class="d-none d-md-block">Brazilian Jiu Jitsu</th>
+              <th class="d-md-none ">BJJ</th>
+              <td></td>
+              <td>7PM-8PM</td>
+              <td></td>
+              <td>7PM-8PM</td>
+              <td></td>
+              <td>10AM-11AM</td>
+            </tr>
+            <!-- Here is the third row -->
+            <!-- The first column will change depending on the screen size -->
+            <tr>
+              <th class="d-none d-md-block">No-Gi</th>
+              <th class="d-md-none ">NG</th>
+              <td>7PM-8PM</td>
+              <td></td>
+              <td>7PM-8PM</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <!-- Here is the forth row -->
+            <!-- The first column will change depending on the screen size -->
+            <tr class="table-active">
+              <th class="d-none d-md-block">Kick-Boxing</th>
+              <th class="d-md-none ">K-B</th>
+              <td>8PM-9PM</td>
+              <td></td>
+              <td>8PM-9PM</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <!-- Here is the fifth row -->
+            <!-- The first column will change depending on the screen size -->
+            <tr>
+              <th scope="row">MMA</th>
+              <td></td>
+              <td>8PM-9PM</td>
+              <td></td>
+              <td>8PM-9PM</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <!-- Here is the sixth row -->
+            <!-- The first column will change depending on the screen size -->
+            <tr class="table-active">
+              <th class="d-none d-md-block">Boxing</th>
+              <th class="d-md-none ">B</th>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>7PM-8PM</td>
+              <td></td>
+            </tr>
+            <!-- Here is the seventh row -->
+            <!-- The first column will change depending on the screen size -->
+            <tr>
+              <th scope="row">Gym</th>
+              <td>10AM-9PM</td>
+              <td>10AM-9PM</td>
+              <td>10AM-9PM</td>
+              <td>10AM-9PM</td>
+              <td>10AM-9PM</td>
+              <td>10AM-9PM</td>
+            </tr>
+          </tbody>
+
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Questions -->
+  <section class="py-5" id="questions">
+
+    <div class="container">
+      <h2 class="text-center mb-5">Frequently Asked Questions</h2>
+
+      <div id="accordion">
+
+        <!-- Here is the first accordion -->
+        <!-- Which will collapse when you click on it -->
+        <div class="card">
+          <div class="card-header">
+            <h5 class="text-center">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne">
+                How do I get started?
+              </button>
+            </h5>
+          </div>
+          <!-- This is the collapsed section-->
+          <div id="collapseOne" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              The best way is to attend a session and join in! You will receive a free session on your first visit, this
+              will provide you with the opportunity to try a class and get a good insight into the varied training we
+              have to offer. You must give us a call, txt or to book in for your free session.
+            </div>
+          </div>
+        </div>
+        <!-- Here is the second accordion -->
+        <!-- Which will collapse when you click on it -->
+        <div class="card">
+          <div class="card-header">
+            <h5 class="text-center">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo">
+                Do I need to bring anything with me?
+              </button>
+            </h5>
+          </div>
+          <!-- This is the collapsed section-->
+          <div id="collapseTwo" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              It's a good idea to bring a drink and a sweat towel. Normal training attire is fine, shorts & T-shirt,
+              Jogging bottoms and T-shirts are all fine. We train in bare feet. In addition, if you already have items
+              such as gloves etc. please feel free to bring them along.
+            </div>
+          </div>
+        </div>
+        <!-- Here is the third accordion -->
+        <!-- Which will collapse when you click on it -->
+        <div class="card">
+          <div class="card-header">
+            <h5 class="text-center">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree">
+                Can I pay as I go?
+              </button>
+            </h5>
+          </div>
+          <!-- This is the collapsed section-->
+          <div id="collapseThree" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              Our members ALL pay via direct debit. As a members only gym we do not accept ANY cash pay as you go. We
+              feel this helps promote regular training and stops bullies from just turning up wanting to "fight".
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Radio Button -->
+    <div class="radio-btn mt-5 mb-3 ">
+      <h4 class="mb-4">Which Martial Do You Prefer?</h4>
+      <div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheck">
+          <label class="form-check-label" for="flexCheck">
+            Brazilian JiuJitsu
+          </label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheck1">
+          <label class="form-check-label" for="flexCheck1">
+            No-GI
+          </label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheck2">
+          <label class="form-check-label" for="flexCheck2">
+            Kick-Boxing
+          </label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheck3">
+          <label class="form-check-label" for="flexCheck3">
+            Boxing
+          </label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheck4">
+          <label class="form-check-label" for="flexCheck4">
+            MMA
+          </label>
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- ----------------------------------Coaches--------------------- -->
+  <section class="bg-primary text-center" id="coaches">
+    <h2 class="text-center text-light pt-5">Our Coaches</h2>
+    <div class="container py-5" id="card-coaches">
+
+      <div class="row ">
+        <!-- This the first coach -->
+        <div class="col-md">
+          <div class="card card-body p-5 " id="card">
+            <figure class="card-body" id="col-coach">
+              <img class="card-image w-100 d-md-block" src="./Images/coach11.png" alt="Coach">
+              <figcaption class="card-title lead">Nathan Lawrence</figcaption>
+            </figure>
+          </div>
+        </div>
+        <!-- This the second coach -->
+        <div class="col-md">
+          <div class="card card-body p-5 ">
+            <figure class="card-body w-100 " id="col-coach2">
+              <img class="card-image w-100  d-md-block" src="./Images/coach22.png" alt="Coach">
+              <figcaption class="lead card-title ">Lucy Brown</figcaption>
+            </figure>
+          </div>
+        </div>
+        <!-- This the third coach -->
+        <div class="col-md ">
+          <div class="card card-body p-5 ">
+            <figure class="card-body" id="col-coach3">
+              <img class="card-image w-100  d-md-block" src="./Images/coach33.png" alt="Coach">
+              <figcaption class="card-title lead">Jimmy Crow</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ----------------------Contact Info---------------------- -->
+  <section class="location" id="contact">
+    <h2 class="text-center">Contact Info</h2>
+
+    <div class="container">
+      <ul class="list">
+        <li>
+          <strong>Number: </strong>
+          <a href="">555-555-555</a>
+        </li>
+
+        <li>
+          <strong>Email:</strong>
+          <a href="mailto:fightclub@gmail.com" target="_blank">
+            <span> fightclub@gmail.com</span>
+          </a>
+        </li>
+        <li> <strong>Adress:</strong> Manchester M14</li>
+      </ul>
+
+      <!-- map -->
+      <div>
+        <a href="https://www.google.com/maps/dir//Manchester/@53.4722454,-2.2234628,12z/data=!4m9!4m8!1m0!1m5!1m1!1s0x487a4d4c5226f5db:0xd9be143804fe6baa!2m2!1d-2.2426305!2d53.4807593!3e0"
+          target="_blank" rel="noopener">
+          <img class="map" src="./Images/map.png" alt="map">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-center text-light mt-5">
+    <p>Copyright &copy; 2022</p>
+  </footer>
+
+  <!-- Bootstrap JavaScript Links -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
+</body>
+
+</html>
