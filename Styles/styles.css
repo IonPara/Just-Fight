@@ -1,10 +1,10 @@
 html {
     scroll-behavior: smooth;
-  }
+}
 
-  html::-webkit-scrollbar {
+html::-webkit-scrollbar {
     width: 0;
-  }
+}
 
 body {
     padding: 0;
@@ -14,7 +14,7 @@ body {
 /*---------------- Top section------------- */
 .top-section {
     background-color: black;
-    
+
 }
 
 
@@ -24,7 +24,9 @@ body {
 }
 
 
-#join a:hover, a:visited, a:link {
+#join a:hover,
+a:visited,
+a:link {
     text-decoration: wavy;
 }
 
@@ -53,7 +55,7 @@ body {
 .location .container {
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     flex-wrap: wrap;
     margin-top: 3%;
 }
@@ -66,16 +68,18 @@ body {
 }
 
 .list li {
-    border-bottom:1px solid grey;
+    border-bottom: 1px solid grey;
 }
 
-ul a:hover, a:visited, a:link{
-    color:black;
+ul a:hover,
+a:visited,
+a:link {
+    color: black;
     text-decoration: wavy;
 }
 
 ul a:hover {
-    color:blueviolet;
+    color: blueviolet;
 }
 
 /*  The Map */
@@ -86,26 +90,30 @@ ul a:hover {
 /* -----------------Cards--------------- */
 .card:hover {
     -webkit-transform: scale(0.5);
-     transform: scale(1.05); 
+    transform: scale(1.05);
 }
 
 .card {
     box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.15), 0 3px 7px 0 rgb(0 0 0 / 15%);
 }
 
-.table-container, .classes-container, section {
+
+.classes-container,
+section {
     overflow-x: hidden;
     min-width: 100%;
 }
 
-.image-container, .card-container {
+.image-container,
+.card-container {
     max-width: 400px !important;
     min-width: 250px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.image-container, img{
+.image-container,
+img {
     object-fit: contain;
 }
 
@@ -115,20 +123,23 @@ ul a:hover {
     margin-left: auto;
 }
 
+.table-container {
+    width: 75%;
+}
+
 /* -----------------Footer--------------- */
-footer p{
+footer p {
     padding: 5vh 0;
     margin-bottom: 0;
     font-size: larger;
     height: 100px;
 }
 
-
 /* ---------------Media screen----------------- */
 @media screen and (max-width:1200px) {
     .boxes h3 {
         font-size: 1.2em;
-        white-space:pre-wrap;
+        white-space: pre-wrap;
     }
 
 }
@@ -136,6 +147,10 @@ footer p{
 @media screen and (max-width:1000px) {
     .top-section {
         margin-top: 8%;
+    }
+
+    .table-container {
+        width: 90%;
     }
 }
 
@@ -151,7 +166,7 @@ footer p{
     }
 
     .map {
-        width: 400px; 
+        width: 400px;
     }
 
     .location .container {
@@ -175,21 +190,18 @@ footer p{
         min-width: 100% !important;
     }
 
-    #join {
-        margin-bottom: 5px;
-    }
     .table-container {
+        width: 100%;
     }
 
-    .table-container {
-        min-width: 100dvw;
-        margin-right: 100px !important;
-        margin-left: -50px;
+    #join {
+        margin-bottom: 5px;
     }
 
     th {
         max-width: 50px;
-        padding-right: 2px;;
+        padding-right: 2px;
+        ;
     }
 
     td {
