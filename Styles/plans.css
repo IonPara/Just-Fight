@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 #brand {
   font-size: 1.5rem;
   font-weight: bolder;
@@ -17,10 +15,9 @@
   flex-wrap: wrap;
 }
 
- .pricing-table {
-  margin-top: 5rem;
-  min-height: 100dvh;
-} 
+.pricing-table {
+  margin-top: 70px;
+}
 
 /* ------------Package boxes ----------------*/
 .package {
@@ -31,7 +28,6 @@
   flex-direction: column;
   justify-content: space-around;
   border-radius: 10px;
-
 }
 
 h2 {
@@ -42,11 +38,12 @@ h2 {
   font-size: larger;
   font-weight: bold;
   font-style: italic;
+  margin-top: 10px;
 }
 
 .package:hover {
   -webkit-transform: scale(0.5);
-   transform: scale(1.05); 
+  transform: scale(1.05);
 }
 
 /*----------------- Footer---------------------- */
@@ -72,22 +69,19 @@ footer p {
   .plans-title {
     font-size: 2rem;
   }
+
   .container {
     display: block;
   }
 
   .package {
-    margin-top: 10px;
-    width: 100%;
+    width: 80%;
     height: 200px;
-  }
-
-  .pricing-table {
-    height: 90vh;
+    margin: auto;
+    margin-top: 20px;
   }
 
   .plans-footer {
-    margin-top: 200px;
     margin-bottom: none !important;
   }
 
@@ -96,106 +90,4 @@ footer p {
     max-height: 100px;
   }
 
-
 }
-=======
-
-#brand {
-  font-size: 1.5rem;
-  font-weight: bolder;
-}
-
-.container {
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-}
-
-.plans {
-  margin-top: 100px;
-  min-width: 100%;
-  flex-wrap: wrap;
-}
-
- .pricing-table {
-  margin-top: 5rem;
-  min-height: 100dvh;
-} 
-
-/* ------------Package boxes ----------------*/
-.package {
-  box-shadow: 0 10px 25px 0 rgb(0 0 0 / 15%), 0 3px 7px 0 rgb(0 0 0 / 15%);
-  width: 280px;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  border-radius: 10px;
-
-}
-
-h2 {
-  text-align: center;
-}
-
-.package .pricing {
-  font-size: larger;
-  font-weight: bold;
-  font-style: italic;
-}
-
-.package:hover {
-  -webkit-transform: scale(0.5);
-   transform: scale(1.05); 
-}
-
-/*----------------- Footer---------------------- */
-footer p {
-  padding: 30px;
-  font-size: larger;
-  height: 100px;
-}
-
-
-.plans-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.buttons-container {
-  justify-content: space-evenly;
-}
-
-/* Media Screen */
-@media screen and (max-width:768px) {
-
-  .plans-title {
-    font-size: 2rem;
-  }
-  .container {
-    display: block;
-  }
-
-  .package {
-    margin-top: 10px;
-    width: 100%;
-    height: 200px;
-  }
-
-  .pricing-table {
-    height: 90vh;
-  }
-
-  .plans-footer {
-    margin-top: 200px;
-    margin-bottom: none !important;
-  }
-
-  .footer-container {
-    border: solid transparent;
-    max-height: 100px;
-  }
-
-
-}
->>>>>>> 0fd44c21b66e83d8edb296cb9a57458fc2abac79
